@@ -3,7 +3,7 @@
 """
 自动推送dist目录内容到GitHub仓库的脚本
 使用方法: python push_to_github.py
-功能：推送前会自动检查并修复index.html中的资源路径（/assets/ 改为 .//assets/）
+功能：推送前会自动检查并修复index.html中的资源路径（/assets/ 改为 ./assets/）
 """
 
 import os
